@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_beylekiler_menu_1"
+            android:icon="@drawable/home"
+            android:title="Esasy Sahypa" />
+
+        <item
+            android:id="@+id/nav_beylekiler_menu_2"
+            android:title="Awtoulaglar"
+            android:icon="@drawable/cars"/>
+        <item
+            android:id="@+id/nav_beylekiler_menu_3"
+            android:icon="@drawable/realtor"
+            android:title="Realtor" />
+
+        <item
+            android:id="@+id/nav_beylekiler_menu_4"
+            android:icon="@drawable/others"
+            android:title="Beýleki Bildirişler" />
+        <item
+            android:id="@+id/nav_beylekiler_menu_5"
+            android:icon="@drawable/football"
+            android:title="100% Futbol" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beylekiler_menu_6"
+            android:icon="@drawable/tasinlikler"
+            android:title="Täsinlikler" />
+        <item
+            android:id="@+id/nav_beylekiler_menu_7"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Gyzyldan Gymmatly" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beylekiler_menu_8"
+            android:icon="@drawable/gos"
+            android:title="Bildiriş Goş" />
+        <item
+            android:id="@+id/nav_beylekiler_menu_9"
+            android:icon="@drawable/sazlam"
+            android:title="Sazlamalar" />
+        <item
+            android:id="@+id/nav_beylekiler_menu_10"
+            android:icon="@drawable/rules"
+            android:title="Düzgünnamalar" />
+        <item
+            android:id="@+id/nav_beylekiler_menu_11"
+            android:icon="@drawable/chat"
+            android:title="Habarlaş" />
+    </group>
+
+</menu>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="synchedapps.tmbazar">
+
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Samsung -->
+
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <!-- Sony -->
+
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+
+    <!-- HTC -->
+
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".bb.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.lenta_tab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.like_lenta_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.lenta_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.car_tab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.ShowDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.reklama_photo_show"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Like_adds_Acctivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.add_adds_cars"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.small_car_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.ShowDetailsadds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.filter_car.filterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.filter_car.axpandableListview_marka"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Beylekiler.Bildiris_gos_Navigation.bildiris_gos_navidation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Beylekiler.beylekiler_tab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.halanlarym_reklama.halanlarym_tab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Realtor.realtor_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Realtor.small_realtor_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Realtor.realtor_tab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Beylekiler.beylekiler_add_reklama"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.Realtor.realtor_add_reklama"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.vip_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adapters.status_beylekiler_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.status_car_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bb.small_lenta_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.Mainchat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gallery.CustomGalleryActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="luminous.ACTION_PICK" />
+                <action android:name="luminous.ACTION_MULTIPLE_PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Splash"
+            android:label="TmBazar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".notificaton"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".online_market.cities"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.items.like_online_activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bb.Realtor.filterrealtor"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".filter_model.add_car_model"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Duzgun"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bb.filter_car.Yyl"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.pre_markets"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.pre_market.markets"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.post_markets"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.details"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.korzina"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.items.items_activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.items.show_details"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.basket.basket"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.post_tab.post_tabmarket"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".online_market.items.reklam_photo"
+            android:screenOrientation="portrait"/>
+
+   <!--     <service
+            android:name=".firebase.FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".firebase.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+-->
+        <activity android:name=".main" />
+        <activity android:name=".bb.Realtor.photo_show"></activity>
+    </application>
+
+</manifest>

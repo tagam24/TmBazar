@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/card_markets"
+    android:layout_height="150dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:outlineProvider="background"
+    app:cardElevation="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="130dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+      />
+
+
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:maxLines="2"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/image_item"
+        android:textColor="@color/timecode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sadsa"/>
+
+
+        <TextView
+            android:id="@+id/item_content"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:maxLength="50"
+            android:textColor="@color/timecode_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/image_item"
+            android:text="Geyim:"
+            android:layout_below="@+id/itemname"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/price_ti"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:textColor="@color/timecode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geyim:"
+            android:layout_below="@+id/item_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/image_item"
+            android:layout_marginTop="12dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/skidka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="skidka 30% "
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:layout_below="@+id/price_ti"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/image_item"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1070672366906",
+    "firebase_url": "https://tmbazar-45e06.firebaseio.com",
+    "project_id": "tmbazar-45e06",
+    "storage_bucket": "tmbazar-45e06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070672366906:android:b7e489d667718d93",
+        "android_client_info": {
+          "package_name": "synchedapps.tmbazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070672366906-ts4p0r8fi5g8t42hk5n30dhns4dcgs6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFqrdBbRzCb38SXFcr7-pcE7LWsYbT5XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

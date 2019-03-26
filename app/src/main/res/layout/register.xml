@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiewt_sp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/gradient_reg_back"
+                android:padding="5dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/main"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:background="@color/reg_back"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gradient_reg_back"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="REGISTRASIÝA"
+            android:layout_marginTop="10dp"
+            android:textSize="19dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/title_chat_register_telefon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Telefon belgi"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/content_chat_register_telefon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/black"
+                android:drawableTint="@android:color/black"
+                android:fontFamily="serif"
+                android:hint="- - - - - - - - - - "
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/title_chat_register_ady"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Ulanyjyň Ady"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/content_chat_register_ady"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/black"
+                android:drawableTint="@android:color/black"
+                android:fontFamily="serif"
+                android:textColor="@android:color/black"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_chat_register_kod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/title_chat_register_kody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Ulanyjyň Kody"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/content_chat_register_kody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/black"
+                android:drawableTint="@android:color/black"
+                android:fontFamily="serif"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:id="@+id/button_chat_register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_radius"
+                android:text="SMS Ugrat"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/title_for_listviewWithCheckbox_for_car_filter"
+            android:textColor="@android:color/white"
+            android:layout_width='wrap_content'
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Ýyly"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ListView
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/listviewWithCheck_for_car_filter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button_filter_dialog_sayla_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/button_radius"
+            android:text="Saýla"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/button_filter_dialog_yza_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/button_radius"
+            android:text="Yza"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

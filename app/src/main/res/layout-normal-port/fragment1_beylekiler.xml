@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lenta1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    >
+
+    <LinearLayout
+        android:id="@+id/searchButton_for_beylekiler"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="75"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            />
+
+            <EditText
+                android:id="@+id/edittext_beylekiler_Gozleg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@android:color/transparent"
+                android:foregroundTint="@android:color/transparent"
+                android:textCursorDrawable="@color/colorPrimary"
+                android:cursorVisible="false"
+                android:hint="Gözleg..."
+                android:drawableTint="@color/colorPrimary"
+                android:textColorLink="@android:color/holo_blue_bright"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10">
+
+            <ImageView
+                android:id="@+id/delete_beylekiler_rec"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/delete" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15">
+
+            <ImageView
+                android:id="@+id/search_beylekiler"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/search" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycl_for_beylekiler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

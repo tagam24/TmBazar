@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/small_beylekiler_show_details_hidden_like"
+        android:icon="@drawable/like"
+        android:title="LIKE"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

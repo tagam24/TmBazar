@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_filter_for_car"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextAppearance="@style/tabTexrXlarge"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        android:minHeight="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="160">
+
+        <LinearLayout
+            android:id="@+id/layout_filter_marka"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_marka_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Marka"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/text_marka_filter_for_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saýlanylmadyk"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="27dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_filter_yyly"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_yyly_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Ýyly"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/text_yyly_filter_for_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saýlanylmadyk"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="27dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_filter_renki"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_renki_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Reňki"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/text_renki_filter_for_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saýlanylmadyk"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="27dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_filter_bahasy"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_bahasy_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Bahasy"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/text_bahasy_filter_for_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saýlanylmadyk"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="27dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_filter_yeri"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_yeri_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Ýerleşýän Ýeri"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/text_yeri_filter_for_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saýlanylmadyk"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="27dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/checkbox_text_kredit_for_сar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Kredite Berýänler"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center_vertical">
+
+                <CheckBox
+                    android:scaleY="2"
+                    android:scaleX="2"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkbox_check_kredit_for_сar"
+                    style="@android:style/Widget.Holo.Light.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/checkbox_text_obmen_for_сar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Obmen Edýänler"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center_vertical">
+
+                <CheckBox
+                    android:scaleX="2"
+                    android:scaleY="2"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkbox_check_obmen_for_сar"
+                    style="@android:style/Widget.Holo.Light.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="15"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_for_filter_show_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:background="@drawable/button_radius"
+                android:text="BILIDIRIŞ GOŞ"
+                android:textColor="@android:color/white"
+                android:textSize="29dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="90">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="10">
+
+        <TextView
+            android:id="@+id/filter_dialog_yyly_title"
+            android:layout_width='wrap_content'
+            android:layout_height="wrap_content"
+            android:text="Ýyly"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50">
+
+            <NumberPicker
+                android:id="@+id/numberpicker_yyly1"
+                android:layout_width="match_parent"
+                android:contextClickable="false"
+                android:descendantFocusability="blocksDescendants"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="match_parent"
+                android:divider="@color/colorPrimary"></NumberPicker>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50">
+
+            <NumberPicker
+                android:id="@+id/numberpicker_yyly2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:contextClickable="false"
+                android:backgroundTint="@color/colorPrimary"
+                android:divider="@color/colorPrimary"
+                android:focusable="auto"></NumberPicker>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="20">
+        <Button
+            android:id="@+id/button_filter_yyly_dialog_sayla"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/button_radius"
+            android:text="Saýla"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/button_filter_yyly_dialog_yza"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/button_radius"
+            android:text="Yza"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

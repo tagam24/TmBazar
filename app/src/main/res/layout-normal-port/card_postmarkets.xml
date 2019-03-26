@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/card_markets"
+    android:layout_height="150dp"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:outlineProvider="background"
+    app:cardElevation="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/shopname"
+            android:textSize="20sp"
+            android:textColor="@color/timecode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sadsa"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/shop_category"
+            android:layout_alignStart="@+id/shop_category" />
+
+        <TextView
+            android:id="@+id/shop_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geyim:"
+            android:textColor="@color/timecode_shadow"
+            android:maxLines="4"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/shopname"
+            android:layout_alignLeft="@+id/skidka"
+            android:layout_alignStart="@+id/skidka" />
+
+
+    <ImageView
+        android:id="@+id/image_postmarket"
+        android:layout_width="130dp"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/online"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/skidka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:text="skidka 30% "
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:maxLines="2"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/image_postmarket"
+        android:layout_toEndOf="@+id/image_postmarket"
+       />
+</RelativeLayout>
+</android.support.v7.widget.CardView>

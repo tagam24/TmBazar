@@ -46,7 +46,7 @@ import java.util.concurrent.ExecutionException;
 
 public class Db extends SQLiteOpenHelper {
     public static String db_name = "reklam.db";
-    public static int db_ver = 3;
+    public static int db_ver = 7;
    Context x;
     public Db(Context context) {
 

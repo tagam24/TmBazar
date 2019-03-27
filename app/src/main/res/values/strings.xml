@@ -1477,5 +1477,6 @@
     <string name="btn_pick">Pick From Gallery</string>
     <string name="btn_pick_mul">Pick From Gallery (Multiple)</string>
     <string name="title_activity_chat_registration">ChatRegistration</string>
+    <string name="nme">Samsung a5 2017</string>
 </resources>
 
